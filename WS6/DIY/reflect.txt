@@ -1,0 +1,14 @@
+/*
+Name: Mohammedamaan Shaikh
+Student ID: #157304197
+Email: mishaikh3@myseneca.ca
+Subject: OOP244
+WORKSHOP 6, PART 2(DIY)
+*/
+
+
+The workshop was great in understanding the concepts of memory leak and how danger it is if we have memory leaks. This workshop also taught how to read the data from the file and do specific tasks like sorting on it and interchanging the data of two files.
+
+This workshop also contains a lot of information about other functions and fstream library. This workshop also contains some basic concepts of constructors, copy constructors, destructors, conversion overload, helper implementations and many more things. The main focus of this workshop was to learn how we can read text or double data from the file in which the data is separated by delimeters like comma(in DIY) or new line(in LAB) using getline function for reading the text and using cin.ignore to read the double values.
+
+I also learnt some new things like the use of "iomanip" library for using setprecision which sets the decimal preision of floating point values and setw function which behaves as if member width were called on which it is inserted or exerted as a manipulator. There was also a sorting algorithm for arranging numbers in ascending or descending order using a nested for loop. This workshop was pretty good but consumed a good amount of my time fixing the memory leaks especially in the DIY part.

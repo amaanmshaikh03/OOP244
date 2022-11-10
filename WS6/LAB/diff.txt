@@ -1,0 +1,14 @@
+In line number 7 of your output:
+The output should be:
+Type echoes.txt and hit <ENTER>
+^
+But your output is: 
+==94847== Conditional jump or move depends on uninitialised value(s)
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [T] ASCII code(84)
+but you printed
+  [=] ASCII code(61)
+

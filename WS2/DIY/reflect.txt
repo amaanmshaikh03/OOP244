@@ -1,0 +1,14 @@
+/*
+Name: Mohammedamaan Shaikh
+StudentID: 157304197
+Email: mishaikh3@myseneca.ca
+Workshop 2 DIY
+*/
+
+
+
+The workshop covered many important topics like function overloading, dynamic memory and references. Function overloading means the function with multiple meaning. The functions have the same name but they are distinguised by the different parameter lists. In the workshop, we have used the function read, load and display multiple times but each time they are declared they do have different parameter type than the others with same name. When the functions are called, the C++ compilers differentiates between multiples functions of same name by differentiating the parameters inside them. Read function is declared multiple time but they do have diferent parameters each time like integer, character or double.
+
+References inside a function passes the variable or object rather than a copy which is an alternative to the pass by address mechanism in the C language and it is easier and simpler to write a code. In the load function and the display function, the struct employees/population is passed by reference using & operator in the parameters and the struct variables are used using structname.variablename inside the function. Dynamic memory is allocated during the time of execution and then deallocates it at run time. It is allocated using a new keyword followed by the size of array and returns the address of array's first element. For delloacating dynamic memory, delete keyword is used followed by [] that corresponds to new [] operator which is used for alloacation. In the workshop, for the employee/population structs we have allocated memory and deallocated it at the end of program using the deallocateMemory function. The alloacation was done using the new keyword and dealloaction was done using delete keywork.
+
+OUT parameter means that the value of the parameter is not of any importance while passing to function. The function will allocate the memory and pass a value back to you while IN parammeter makes sure that the parameter value isn't modified. IN parameters are better coveyed by marking as const and hence the language will prevent any modifications. The openFile function receives an IN paraeter and is marked const in the parameter to make sure that any modification won't take place inside the function.

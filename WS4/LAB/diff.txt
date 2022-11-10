@@ -1,0 +1,14 @@
+In line number 15 of your output:
+The output should be:
+ 1000.0cc (13.0x10.0) Canister of Unusable content, discard!
+                                                           ^
+But your output is: 
+ 1000.0cc (13.0x10.0) Canister of Unusable content, discard
+                                                            ^
+
+Unmatched character details:
+The character in column 61 is supposed to be:
+  [!] ASCII code(33)
+but you printed
+  [Empty Line] ASCII code(0)
+

@@ -1,0 +1,15 @@
+/*
+Name: Mohammedamaan Shaikh
+Student ID: #157304197
+Email: mishaikh3@myseneca.ca
+Subject: OOP244
+WORKSHOP 4, PART 2(DIY)
+*/
+
+This workshop was focused on the use of contructors, destructors, current object(*this) and overloading constructors. Constructor is the special member function that any object invokes at creation-time. Its declaration does not include a return type and its name is same as class name. It is used to initialize the variables to their default values before client enters the values of variable as the values are not defined at the beginning. Destructor is the special member function that every object invokes before going out of scope. Its declaration is same as constructor with a tilde symbol(~) prefexing.
+
+A constructor can be overloaded by declaring a constructor with an argument. The default constructor does not have any argument while overloading a class' constructor adds communication options for client code. In the Label class of DIY part, there were 3 constructors.  The one with no arguments was the default constructor initializing variables with their default value. The one argument constructor was set if the user enters the value of the frame, then it sets the content to its default value and frame according to the argument accepted. The two argument constructor is called when the user entered all the values and it sets the variables according to the values given respectively. The default constructor is called at the end to remove the dynamically allocated values by using delete[] keyword.
+
+The keyword this refers the address of the current object while *this refers the object itself. To copy the values of the instance variables of one object into those of the current object, we use *this as the left operand in an assignment expression. If we want to return the current object we can do it by returning *this at the end. In the LAB part of workshop, inside the Canister class in the functions Canister& setContent(const char* contentName) and Canister& pour() we have to return the current object to the class, and thus *this is used in the return statement.
+
+Also we have learned about the advantage of returning cout at the end and how it can be helpful. Like in the DIY part, printLabel() returned the cout at the end and the printLabels() function used the former by displaying an endl after calling the function to introduce a new line. Also this workshop was helpful in reviewing certain topics like dynamically allocated memory.
