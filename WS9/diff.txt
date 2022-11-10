@@ -1,0 +1,14 @@
+In line number 27 of your output:
+The output should be:
+6: 12345 Bart Simpson GPA: 1.5
+^
+But your output is: 
+Searching for students with 4.0 Gpa:
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [6] ASCII code(54)
+but you printed
+  [S] ASCII code(83)
+

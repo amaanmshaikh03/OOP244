@@ -1,0 +1,12 @@
+Name: Mohammedamaan Iqbal Shaikh
+Student ID: 157304197
+Email: mishaikh3@myseneca.ca
+Workshop 8 Part 2
+
+This workshop taught a lot of things including the use of pure virtual functions, abstract base classes, implement behaviour using virtual functions and many more things.
+
+A pure virtual function is a function that must be overridden in a derived class and need not be defined. The pure word in its syntax indicates that there is no need for implementation. virtual void draw(std::ostream&) const = 0; & virtual void getSpecs(std::istream&) = 0; are the pure virtual functions defined in the shape class in this workshop. An abstract class is a class which contains or inherits atleast one virtual function. The class defines the declaration of pure virtual function woth no pure keyword at the end while a concrete class definitions specify the various implementations of functions. The shape class was an abstract class which contains pure virtual function and are defined in its child class.
+
+This workshop also gave a good revision for the use of helper functions and heritance as SHape was the base class and LblShape was its child class while the line class and the rectangle class were the child class of LblShape class. I also used the stream libraby in my workshop about which I learned google while searching gor some explanations. A sstreams is a stringstream class in C++ is a stream class to operate on stream. It implements the input/output operations on a string.
+
+The milestone 1 and 2 from the assignment were a good exercise to recall everything we leaned during the first half of semester till now. It included all the basic things like iterations and if..else statement, and all the concepts from the use of destructor, constructor, input/output refinments, helper functions, heritance and abstract classes too. It was a good practice to recall everything from previous classes and apply a once.

@@ -1,0 +1,14 @@
+In line number 19 of your output:
+The output should be:
+>Line two,40
+    ^
+But your output is: 
+>Lin t^C==92367== 
+    ^
+
+Unmatched character details:
+The character in column 5 is supposed to be:
+  [e] ASCII code(101)
+but you printed
+  [Space] ASCII code(32)
+

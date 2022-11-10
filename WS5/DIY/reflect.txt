@@ -1,0 +1,25 @@
+/*
+Name: Mohammedamaan Shaikh
+Student ID: #157304197
+Email: mishaikh3@myseneca.ca
+Subject: OOP244
+WORKSHOP 5, PART 2
+*/
+
+
+This week's workshop is focused on the ovrloading operations, member functions, type conversion operators and helepr functions. Besides this, the concept of the *this operator is also used along with the concept of constructors and class.
+
+The keyword operator identifies an overloaded operation. C++ allows all binary arithmetic, assignment, unary, relational, logical, insertion and extraction to be oveloaded while some operators like scope resolution, member selection are strictly prohibited. Operators are generally overloaded in two ways as member function and helper functions.
+
+A member operator is a part of the class definition with direct access to the class representation. A unary member operation declartion is like return_type operator symbol(). They are used effectively in the lab part of workshop inside the class Account such as:
+Account& operator=(int);
+Account& operator=(Account&);
+Account& operator+=(double);
+Account& operator-=(double);
+Account& operator<<(Account&);
+Account& operator>>(Account&);
+The above member functions are declared inside class and they do have the access to the class' private elements and work according to the operators like assigning a value, adding, subtracting, insertion and extraction respectively.
+
+Type conversion operators define implicit function coversions to different types including all fundamental types like bool, int, double, float. The function: operator bool() const; used in Account class, returns us a boolean value after checking the validity of the account number.
+
+Helper operators supports the class without having direct acces to its representation as they are declared outside the class. Helper function does not require access to the private members of its class. In the lab part of workshop, the function: double operator+(const Account&, const Account&); adds the account balance to a Account object and evaluates to a copy of the updated object. This takes the balance from multiple accounts and adds it to find the total balance.

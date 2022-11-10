@@ -1,0 +1,8 @@
+Name: Mohammedamaan Iqbal Shaikh
+Student ID: 157304197
+Email: mishaikh3@myseneca.ca
+WS09 Rfeflection
+
+A template definition resembles that of a global function with the parenthesis replaced by angle brackets. It syntax is templte<Type identifier[, ..]>. In the searchNlist.h, there are two tempated functions used i.e. search and listArrayElements. The search function uses a reference to a collection of templated objectswhich is defined in collection.h module. It also uses an array of templated objects, an integere which holds the number of elements of arrays and a key templated value which is to be searched for in the array of objects. The listarrayelements function takes the value of a const char* for title, a constant array of templated objects and an integer for the number of elements of the arrays. These function works in combination to other modules and are executed in the main program.
+
+This workshop was overall easy and didn't face any difficulty except for one i.e. I had written the reference to an array in the search function and it too me a while to figure out. I did the milestone 3 this week and it was pretty easy and good yo recalll everything we learnt this semester including the function inheritance, abstract and concrete class and overwriting the pure virtual function.

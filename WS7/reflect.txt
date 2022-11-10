@@ -1,0 +1,12 @@
+Name: Mohammedamaan Iqbal Shaikh
+Student ID: 157304197
+mail: mishaikh3@myseneca.ca
+date: 21st march, 2021
+
+This workshop taught me how to inherit a derived class from a base class, shadow a base class member function with a erived class member function and accss a shadowed member function that is defined in a base class.
+
+The truck class inherits the motorvehicle class. It inherits the class members fro the class motorvehicle and uses it in the class truck. This is a kind of relationship between the classes. This means truck is a kind of motorcycle an that is true. The truck class inherits the motorvehicle class by writing as class Truck: public motorvehicle{}. This helps the Truck class to inherit the public functions from the motorvehicle class.
+
+This workshop also helped in the concepts of input and output operators with these classes. The use of read and write function helps is displaying the inforation and taking the input from the users. This workshop was quite simple but writing the reflection part took more of my time than writing the code.
+
+Regarding the milestone 1, I am half way done in that. I talked to you about my travel to canada and thats the reason i was not able to complete it this week. It will be done by monday or maximum tuesday. WIll inlude the details regarding that in the next reflection.
