@@ -1,0 +1,9 @@
+Name: Mohammedamaan Shaikh
+Student ID: 157304197
+Email: mishaikh3@myseneca.ca
+Workshop 10 Part 2
+
+
+This workshop taught me how to implement the rule of three, which include a destructor, copy constructor and copy assignment operator. The text class contains all three of them and the htmltext class which is a child class of text also have all three of them. The default constructor here is used to delete all the memories at the end. The copy constructor is used to copy the text accepted as an argument to its respective member variable in the class. The cop assignment operator copies the class accepted in argument to the class and returns the class at the end.
+
+There are other functions like read and write used for displaying and taking the content in file. There is also a helper function for the extraction operator which uses the write function to display the things. Overall, this workshop was good to use all the things we learnt including, constructors, destructors, copy and copy assignment operators, helper functions and the use of inheritance. This workshop was straight forward and didn't took long to finish it.

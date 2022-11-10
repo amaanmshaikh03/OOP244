@@ -1,0 +1,13 @@
+/*
+Name: Mohammedamaan Shaikh
+Student ID: #157304197
+Email: mishaikh3@myseneca.ca
+Subject: OOP244
+WORKSHOP 1, PART 2(DIY)
+*/
+
+The lab part of workshop was very useful understanding the use for creating various fuctions, using global variables, using constant values and namespaces inside the header files and CPP files. The concept of namespace was used in a perfect way to learn about it and how to implement it. This also helped me understand the basics like how to print and take a value from user in C++. The lab part was a good part to start learning C++ language and using the abilities to organize a source code into modules and linking the header and implementation files in modular programs.
+
+The DIY part was very useful to know about the implementation of various C string library functions like strCpy, strCmp ,strStr, strCat and strLen. Some concepts like the use of for loop and if statements were used in a nice manner inside string functions. This also helped me with operating with strings and after completion of DIY part, I understand how this functions actually worked in C language. The concepts of namespace and header guards were also used for understanding them better than before. This was a good practice to start with coding after a break of a month and helped me with revising some concepts like for loop, if statement and strings.
+
+The lab part was pretty straight forward and didn't took it long to solve it out. In DIY part, strCpy, strCmp, strCat and strLen functions were quite easy and were done with basic concept of iterating the string characters, but the strStr function took a bit more of my time in finding the location of match and then returning it's address. I was trying to return the value of string which displayed some wierd stuff after compiling. It took me about an hour to figure out that I wasn't returning the address and I spend my whole time finding mistakes inside the loops. Then I used the debugging technique to find out where I was wrong using a simple cout statement and made my way to figure out where I was actually making mistake at the end while returning the value.

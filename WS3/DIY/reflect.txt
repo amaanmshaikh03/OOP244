@@ -1,0 +1,16 @@
+/*
+Name: Mohammedamaan Shaikh
+Student ID: #157304197
+Email: mishaikh3@myseneca.ca
+Subject: OOP244
+WORKSHOP 3, PART 2(DIY)
+*/
+
+
+
+
+This workshop taught some important basics for object oriented programming about the usage of class. The knowledge on how to display the information in several different manners like displaying a text or number on left or right and displaying a decimal number with precision upto certain decimal points. A class keyword identifies a class that is private by default in order to maintain the privacy and stop others from accessing the data of class for others. Also it explains why it is necessary to display the functions to be accessible to others by using a keyword public allowing other classes and the main function to access the public members of class. Certain function like display(), price(), tax() were declared as a public members inside the Item class in order to let the Bill class use them and functions like init(), add(), display() and deallocatememory() were declared as public inside the Bill class to let the main function use it.
+
+Hiding all data members gives us control over which data to accept and reject. If the data is invalid, we can reject it and store the default values that indentifies the objects state as empty state. In the Item and Bill class, when the received values were invalid, we called the function setEmpty() to set the default values modifying the wrong values. The use of cout object was used quite frequently in the display function for displaying the data. The use of its public members like width(int), fill(char), set(...), unset(...) and precision(int) were illustrated in the workshop.
+
+Certain previous topics like dynamic memory allocation were also used in order to allocate the memory at the run-time for creating an instance of item class. The workshop was quite straightforward covering every topics from this week and the DIY part of workshop was a very good practice for revising the topics covering the lab and this week's content.
